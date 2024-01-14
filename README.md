@@ -73,3 +73,4 @@ Pronto agora é só criar seus cenários de testes e aproveitar o melhor da ferr
 Obrigado por consumirem nossos conteúdos.
 
 Qa.Coders Academy Formando Profissionais de Qualidade.# automacao-web-cypress
+# automacao-web-cypress
