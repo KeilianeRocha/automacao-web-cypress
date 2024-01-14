@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qa.Coders Academy</title>
+    <style>
+        /* Adicione estilos aqui, se necessário */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #b6b3b3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            max-width: 600px;
+            width: 100%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #2c3e50;
+        }
+
+        .form-title {
+            text-align: center;
+            color: #3498db;
+        }
+
+        .form-logo {
+            display: block;
+            margin: 0 auto 20px;
+            margin-top: 100px;
+            max-width: 50%;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #9dafb4;
+            color: #1e2731;
+        }
+
+        .radio-group,
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .form-radio,
+        .form-checkbox {
+            margin-right: 8px;
+        }
+
+        .form-button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .form-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1 class="form-title">Formulário de Contato</h1>
+        <img class="form-logo" src="./logo.png" alt="Logotipo Qa.Coders Academy">
+
+        <label for="nome" class="form-label">Nome:</label>
+        <input type="text" id="nome" name="nome" class="form-input">
+
+        <div class="radio-group">
+            <label class="form-label">Sexo:</label>
+            <input type="radio" id="sexo-masculino" name="sexo" value="masculino" class="form-radio">
+            <label for="sexo-masculino">Masculino</label>
+
+            <input type="radio" id="sexo-feminino" name="sexo" value="feminino" class="form-radio">
+            <label for="sexo-feminino">Feminino</label>
+        </div>
+
+
+        <div class="checkbox-group">
+            <label class="form-label">Hobbies:</label>
+            <input type="checkbox" id="hobby1" name="hobbies" value="futebol" class="form-checkbox">
+            <label for="hobby1">Futebol</label>
+        
+            <input type="checkbox" id="hobby2" name="hobbies" value="musica" class="form-checkbox">
+            <label for="hobby2">Música</label>
+        </div>
+
+        <label for="endereco" class="form-label">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" placeholder="Rua, número, complemento" class="form-input">
+
+        <label for="cidade" class="form-label">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" class="form-input">
+
+        <label for="estado" class="form-label">Estado:</label>
+        <select id="estado" name="estado" class="form-input">
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="bh">Belo Horizonte</option>
+        </select>
+
+        <label for="cep" class="form-label">CEP:</label>
+        <input type="text" id="cep" name="cep" class="form-input">
+
+        <label for="comentario" class="form-label">Comentário:</label>
+        <textarea id="comentario" name="comentario" rows="4" cols="50" class="form-input"></textarea>
+
+        <button type="button" id="enviar" class="form-button">Enviar</button>
+
+        <label for="idade" class="form-label">Idade:</label>
+        <input type="range" id="idade" name="idade" min="18" max="100" class="form-input">
+
+        <label for="cor" class="form-label">Cor Favorita:</label>
+        <input type="color" id="cor" name="cor" class="form-input">
+
+        <!-- ... (códigos anteriores) ... -->
+
+
+        <div class="checkbox-group">
+            <label for="interesses" class="form-label">Interesses:</label>
+            <fieldset>
+                <legend>Selecione seus interesses:</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="interesse-tecnologia" name="interesses" value="tecnologia" class="form-checkbox">
+                        <label for="interesse-tecnologia">Tecnologia</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="interesse-viagens" name="interesses" value="viagens" class="form-checkbox">
+                        <label for="interesse-viagens">Viagens</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="interesse-leitura" name="interesses" value="leitura" class="form-checkbox">
+                        <label for="interesse-leitura">Leitura</label>
+                    </li>
+                    <!-- Adicione mais itens conforme necessário -->
+                </ul>
+            </fieldset>
+        </div>
+
+<!-- ... (códigos restantes) ... -->
+
+    </div>
+
+</body>
+</html>
