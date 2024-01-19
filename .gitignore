@@ -1,4 +1,6 @@
+cypress.env.json
 node_modules
 package-lock.json
+comandos.txt
+example.json
 *.log
-cypress.env.json
