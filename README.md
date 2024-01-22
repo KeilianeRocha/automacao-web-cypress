@@ -1,4 +1,9 @@
-# Projeto automação WEB com Cypress - Nível basíco
+<p align="right">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO"/>
+</p>
+<h1 align="center"> Projeto automação WEB com Cypress - Nível basíco </h1>
+<p align="right"> 
+
 
 Projeto de automação web com Cypress, com ele você irá conseguir escrever seus primeiros casos de testes com uma ferramenta poderosa cheia de recursos que facilitam a sua vida.
 
